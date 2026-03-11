@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designer - Main Page</title>
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/8133/8133826.png">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1e1e2f, #2d2d44);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            padding: 20px 40px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            letter-spacing: 2px;
+        }
+
+        .content {
+            margin-top: 80px;
+            width: 90%;
+            max-width: 900px;
+            text-align: center;
+            animation: fadeIn 1.5s ease;
+        }
+
+        .content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .content p {
+            font-size: 1.2rem;
+            opacity: 0.85;
+            line-height: 1.6;
+        }
+
+        .btn {
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: #6c63ff;
+            border: none;
+            border-radius: 30px;
+            color: #fff;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #8b85ff;
+            transform: translateY(-3px);
+        }
+
+        footer {
+            width: 100%;
+            padding: 15px 0;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            font-size: 0.9rem;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            backdrop-filter: blur(6px);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Main Page</h1>
+    </header>
+
+    <section class="content">
+        <h2>Your New Page</h2>
+        <p>
+            This is your second page. You can edit this text, add images, cards, 
+            buttons, or anything else you want.  
+            Use this page for more information, features, or anything you want to build.
+        </p>
+
+        <button class="btn" onclick="window.location.href='file:///C:/Users/Learner/OneDrive/design%20your%20future/Home%20Page.html'">
+            Back to Home
+        </button>
+<button class="btn" onclick="window.location.href='mailto:unokowne@outlook.com?subject=Hello&body=I%20want%20to%20contact%20you'">
+            contact me
+        </button>
+    </section>
+
+    <footer>
+        <a href="file:///C:/Users/Learner/OneDrive/design%20your%20future/copyrights.html">© 2026 Designer — All Rights Reserved</a>
+    </footer>
+
+</body>
+</html>
